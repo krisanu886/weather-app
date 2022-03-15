@@ -20,8 +20,9 @@ const WeatherApp = () => {
   return (
     <>
       <div className="box">
+      <h1> Weather App </h1>
         <div className="inputData">
-          <h1> Weather App </h1>
+         
           <input
             type="search"
             className="inputFields"
@@ -36,9 +37,9 @@ const WeatherApp = () => {
           <p>Type your correct Location</p>
         ) : (
           <div>
-            <div className="info">
+            <div>
               <h2 className="location">{search}</h2>
-              <h1 className="temp">{city.temp} °Cel</h1>
+              <h1>{city.temp} °Cel</h1>
               <h3 className="temp-min">Min: {city.temp_min} °Cel | Max: {city.temp_max} °Cel</h3>
             </div>
           </div>

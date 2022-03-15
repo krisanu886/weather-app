@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 .loginForm > input{
-    min-width: 380px;
+    min-width: 280px;
     padding: 20px 0;
     padding-left: 15px;
     margin-bottom: 10px;
@@ -27,7 +27,7 @@
     background: #000;
     border: none;
     color: whitesmoke;
-    font-size: 14px;
+    font-size: 20px;
     font-family: initial;
     border-radius: 5px;
 }
@@ -46,7 +46,47 @@
     background: #000;
     border: none;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     font-family: initial;
     border-radius: 5px;
+}
+.box{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: initial;
+    /* background-color: #000;
+    color: white; */
+}
+.inputData{
+    margin-top: 10px;
+}
+.inputFields{
+    min-width: 280px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid black;
+    font-family: initial;
+    border-radius: 5px;
+    font-size: 15px; 
+}
+h1{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.location{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.temp-min{
+    margin: 10px;
 }
